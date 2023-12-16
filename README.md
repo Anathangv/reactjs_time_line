@@ -1,27 +1,55 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Time Line
 
-Currently, two official plugins are available:
+A ReactJS application for users to save pictures and descriptions of their best moments.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The main focus is on practicing and improving my React skills, so both the requests and the database are mocked.
 
-## Expanding the ESLint configuration
+The app is based on a React application developed in a course called Nlw Spacetime by Rocketseat. However, in the course, Next and Tailwind are used, while this application uses ReactJS and styled-components, in addition to other modifications.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
+## Demo
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+
+## Tech Stack & Highlights point
+
+**Client:** 
+ - [Vite](https://vitejs.dev/)
+ - [Typescript](https://www.typescriptlang.org/)
+ - [React](https://reactjs.org/)
+ - [Styled-components](https://styled-components.com/)
+ - [Font Awesome icons](https://fontawesome.com/search)
+ - [axios](https://www.npmjs.com/package/axios)
+ - [dayjs](https://www.npmjs.com/package/dayjs)
+   - minimalist JavaScript library that parses, validates, manipulates, and displays dates
+ - [Form - FormData](https://developer.mozilla.org/en-US/docs/Web/API/FormData)
+   - employs standard forms without the use of external form and validation libraries.
+ - Form - Images
+   - The basic logic of how to create a feature that requires saving an image with a form
+ 
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/Anathangv/reactjs_time_line.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Go to the project directory
+
+```bash
+  cd reactjs_time_line
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the application
+
+```bash
+  npm run dev
+```
