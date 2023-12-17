@@ -9,6 +9,7 @@ The app is based on a React application developed in a course called Nlw Spaceti
 
 
 ## Demo
+![time_line](https://github.com/Anathangv/reactjs_time_line/assets/14235259/77894984-cb3e-4f9a-af6b-f79e2c261a17)
 
 
 ## Tech Stack & Highlights point
